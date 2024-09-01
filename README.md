@@ -91,8 +91,9 @@ How do I conduct literature reviews?
 
 1. Initial search by keywords in Google Scholar, and save a lot of references into Zotero. That is my first line of defense.
 2. Go through each downloaded paper to get a general idea of what is being said. Take notes from each paper: what I learned in them.
-3. Identify which ones were reviews or which ones were particularly relevant for my research question.
-4. Plug those into Connected Papers to get a network of papers.
-5. Go through the connected papers and write a (directed) text with the review, augmenting it at every relevant fact.
-6. Refactor the written review based on how I want to organize the flow of the argument, and if needed, go back to some key papers to add details that I may have missed but only later figured were important.
+3. Write a summary of what we have learned.
+4. Identify which ones were reviews or which ones were particularly relevant for my research question.
+5. Plug those into Connected Papers to get a network of papers.
+6. Go through the connected papers and write a (directed) text with the review, augmenting it at every relevant fact.
+7. Refactor the written review based on how I want to organize the flow of the argument, and if needed, go back to some key papers to add details that I may have missed but only later figured were important.
 
