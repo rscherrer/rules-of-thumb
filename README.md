@@ -87,13 +87,17 @@ Make sure to have in the `README.md` of the data repository of a simulation stud
 
 ## 3. Literature review
 
-How do I conduct literature reviews?
+How do I conduct literature review when working on a paper?
 
-1. Initial search by keywords in Google Scholar, and save a lot of references into Zotero. That is my first line of defense.
-2. Go through each downloaded paper to get a general idea of what is being said. Take notes from each paper: what I learned in them.
-3. Write a summary of what we have learned.
-4. Identify which ones were reviews or which ones were particularly relevant for my research question.
-5. Plug those into Connected Papers to get a network of papers.
-6. Go through the connected papers and write a (directed) text with the review, augmenting it at every relevant fact.
-7. Refactor the written review based on how I want to organize the flow of the argument, and if needed, go back to some key papers to add details that I may have missed but only later figured were important.
+1. Make a specific directory in Zotero for the current review.
+2. Initial search by keywords in Google Scholar, and save a lot of references into Zotero. That is my first line of defense.
+3. Go through each downloaded paper to get a general idea of what is being said. Take notes from each paper: what I learned in them.
+4. Write a summary of what we have learned for each paper, in one or a few sentences.
+5. Identify which ones were reviews or which ones were particularly relevant for my research question.
+6. Plug those into Connected Papers to get a network of papers. This is the second line of defense.
+7. Go through the connected papers and write a (directed) text with the review, augmenting it at every relevant fact. This is in case we are writing the literature review from scratch. If this is upon adding relevant literature to an already-drafted introduction or discussion, add a citation in the relevant place in the text for each paper we go through (at the risk of having more cited papers than necessary).
+8. Refactor the written review based on how I want to organize the flow of the argument, and if needed, go back to some key papers to add details that I may have missed but only later figured were important.
+9. Remove superfluous citations when we realize those don't really add much. But keep a line as comments in the LaTeX source code explaining in one sentence what they are about (we may want to add them back in).
+
+(Subdirectories?)
 
