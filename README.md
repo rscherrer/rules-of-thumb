@@ -79,13 +79,19 @@ ms/
 
 ### 2.3. Read me's
 
-Every repo should have a `README.md` that explains what the repo contains and how it was used. The repo containing the source code for a simulation should contain explanations for how the simulation works. The repo for the analyses of some data should explain how the scripts must be run. The repo for the data should contain and explanation of how the data were obtained (if that is not written in the manuscript). Here I invent nothing, and there are already good standards for documentation. I am not a fan of repeating everything many times though, so I am more a proponent of one `README` per repo (unless really necessary).
+Every repo should have a `README.md` that explains what the repo contains and how it was used. The repo containing the source code for a simulation should contain explanations for how the simulation works. The repo for the analyses of some data should explain how the scripts must be run. The repo for the data should contain and explanation of how the data were obtained (if that is not written in the manuscript). Here I invent nothing, and there are already good standards for documentation. I am not a fan of repeating everything many times though, so I am more a proponent of one `README` per repo (unless really necessary). Check out [this](https://github.com/rscherrer/reschoice) for an example of good repo documentation.
 
 ### 2.3.1. Simulated data
 
 Make sure to have in the `README.md` of the data repository of a simulation study, the steps involved in simulating the data. Sometimes those are not trivial and may require extra scripts or manual tweaks, for example if the simulations had to be run in many batches on a computer cluster. Those steps won't necessarily be fully reproducible by everyone (not everybody has access to the same, let alone one, cluster). But at least there is an accurate description of what has been done, and it can be also useful for myself to come back to if I need to run extra simulations down the line.
 
-## 3. Literature review
+## 3. Good practices
+
+### 3.1. Documentation
+
+Document, annotate and write README files **early** on in the development of a project. Otherwise, it really quickly gets out of hand (either the analysis branches off in a hundred directions, or there ends up being many copies of the same file --- see [this](https://github.com/rscherrer/brachypode-nb) for an example of what not-to-do). You do not want to come back to those files at a later stage (say, just before submitting to a journal) and having to reverse engineer what is what. And do that, **even if** you know that many of the scripts or analyses or figures produced will not make it into the final manuscript.
+
+## 4. Literature review
 
 How do I conduct literature review when working on a paper?
 
