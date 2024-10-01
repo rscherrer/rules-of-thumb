@@ -93,6 +93,8 @@ Document, annotate and write README files **early** on in the development of a p
 
 ## 4. Literature review
 
+### 4.1. Workflow
+
 How do I conduct literature review when working on a paper?
 
 1. Make a specific directory in Zotero for the current review.
@@ -107,3 +109,10 @@ How do I conduct literature review when working on a paper?
 
 (Subdirectories?)
 
+### 4.2. Collections
+
+In my reference manager, I like to organize collections by manuscript or project I am working on (those can also be for a presentation or a lecture, for example). This makes it easy to export the collection of references to the BibTeX format into a single file that I can then use in my LaTeX manuscript.
+
+### 4.2. Wrapping things up
+
+When the manuscript is almost ready, I like to clean up my reference manager library (here Zotero). First, I use Zotero's function to remove duplicate items. Then, I make sure all titles are in the right case (journals like _Evolution_ love to capitalize the titles of papers). Finally, I export the collection, recompile my (LaTeX) manuscript and go through it to make sure to correct any BibTeX keys that may have changed (and so make sure that each source is properly cited).
