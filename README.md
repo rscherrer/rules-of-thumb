@@ -122,3 +122,13 @@ In my reference manager, I like to organize collections by manuscript or project
 ### 4.2. Wrapping things up
 
 When the manuscript is almost ready, I like to clean up my reference manager library (here Zotero). First, I use Zotero's function to remove duplicate items. Then, I make sure all titles are in the right case (journals like _Evolution_ love to capitalize the titles of papers). Finally, I export the collection, recompile my (LaTeX) manuscript and go through it to make sure to correct any BibTeX keys that may have changed (and so make sure that each source is properly cited).
+
+## 5. Figures
+
+Figures live in the repo of the manuscript. Makes sense, that's where they matter. So, the manuscript should have a `figures/` folder. Now, I see two types of figures:
+
+1. "Hand-made" figures (e.g. with Inkscape or Illustrator) that required some manual editing. Often times those are photos (as in [this](https://github.com/rscherrer/dewlap) repo) or overview diagrams showing the workings of a model (as in [this](https://github.com/rscherrer/speciome) one). They only live in the manuscript repository, and if they were built with some graphics tool (e.g. Inkscape or Gimp) then they have their own folder with the raw project file used to edit them (e.g. the original SVG file in Inkscape so we can modify the figure if needed).
+   
+2. Programmatic figures, produced by a third-party software. Most of the time that would be R. However, I do not like to host R scripts used to generate figures in the same place as the manuscript, because that makes the manuscript repo way too large. Instead, all the analyses are usually hosted within their own repository. This is also convenient in that I can generate many more figures (e.g. to visually check many things) than will eventually make it into the manuscript (and interested readers can always go check the analysis repo to see those extra figures). Of course, the important bit there is that I need to make sure to move copies of the relevant figures from the analysis (or `results/`) repo into the manuscript repo. Then, because this gives rise to two copies of each figure present in the manuscript, it is important that they have the same name (to be able to find the source figure easily if it has been updated and needs to be replaced in the manuscript, for example). Hence the importance of giving figures **meaningful names**. Alternatively, it is also possible to write a shell script to automatically import the required figures from the analysis repo to the manuscript one.
+
+As a general rule I go for the PNG format, as it is easy to resize and does not take much space for complicated figures.
