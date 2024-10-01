@@ -85,6 +85,12 @@ Every repo should have a `README.md` that explains what the repo contains and ho
 
 Make sure to have in the `README.md` of the data repository of a simulation study, the steps involved in simulating the data. Sometimes those are not trivial and may require extra scripts or manual tweaks, for example if the simulations had to be run in many batches on a computer cluster. Those steps won't necessarily be fully reproducible by everyone (not everybody has access to the same, let alone one, cluster). But at least there is an accurate description of what has been done, and it can be also useful for myself to come back to if I need to run extra simulations down the line.
 
+### 2.4. Versioning
+
+I LOVE to use the GitHub option to "draft a new release" whenever I am kind of done with a repo. If my simulation code is done, I'll version it 1.0. If a new feature is added, that's version 1.1. Major change making back-compatibility difficult? 2.0. I do this also with repos that are not source code for a program. For example, is the manuscript repo ready to be sent to supervisors for revision? That's version 1.0. Am I implementing their comments and feedback? That's version 1.1, 1.2, etc. Are we ready to submit to a journal? 2.0. Same for repos containing R scripts, Mathematica notebooks or even simulated data. Version, just so we can go back to a previous, clearly identified archive if need be.
+
+I also do it with [courses](https://github.com/rscherrer/evo-theo-manual) or [lectures](https://github.com/rscherrer/evo-bio-cc) that iterate every year with some change. Here, the versioning can even have the name of the year (e.g. version 2024).
+
 ## 3. Good practices
 
 ### 3.1. Documentation
