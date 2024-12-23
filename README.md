@@ -161,6 +161,7 @@ Have a figure folder where we store what shows up in the manuscript (i.e. some f
 
 The figure folder may also contain more complex assemblages of figures than the raw plots saved by the analytic module, e.g. Inkscape or Illustrator composite figures, etc. This is why we keep plots of the results and manuscript figures separate.
 
+Name scripts containing multiple functions with a capital letter at the start.
 
 I like to have a script that makes latex tables from the results using kable in R, so that I do not need to go through all the tables in latex and, say, remove the extra digits to make sure the numbers are well rounded. That is feasible ofc, but extremely frustrating when you realize you forgot one set of analyses or for whatever reason the table need to be made a anew and you have to go through the whole curating process by hand again.
 
