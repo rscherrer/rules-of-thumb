@@ -77,6 +77,8 @@ results/
 ms/
 ```
 
+Potentially a `private` subrepo that contains things that need not be made public but still relevant to the project such as email conversations. Must be added to the `.gitignore` for sure and will not be made available even after publication, out of respect for the privacy of emailers. May only be found in my personal archived version of the project, on one of my physical harddrives.
+
 ### 2.3. Read me's
 
 Every repo should have a `README.md` that explains what the repo contains and how it was used. The repo containing the source code for a simulation should contain explanations for how the simulation works. The repo for the analyses of some data should explain how the scripts must be run. The repo for the data should contain and explanation of how the data were obtained (if that is not written in the manuscript). Here I invent nothing, and there are already good standards for documentation. I am not a fan of repeating everything many times though, so I am more a proponent of one `README` per repo (unless really necessary). Check out [this](https://github.com/rscherrer/reschoice) for an example of good repo documentation.
